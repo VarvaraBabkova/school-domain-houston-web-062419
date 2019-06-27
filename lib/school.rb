@@ -10,6 +10,10 @@ class School
     @roster[grade] ||= []
     @roster[grade] << name
   end
+
+  def grade (grade)
+    return @roaster[grade]
+  end
 end
 
 school = School.new("Bayside High School")
