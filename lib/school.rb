@@ -12,7 +12,7 @@ class School
   end
 
   def grade (grade)
-    return @roaster[grade]
+    return @roaster[grade] if @roaster[grade]
   end
 end
 
